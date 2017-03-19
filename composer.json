@@ -1,7 +1,9 @@
 {
     "name": "alberteddu/pine-core",
     "autoload": {
-        "Pine\\Plugin\\PineCore\\": "src/"
+        "psr-4": {
+            "Pine\\Plugin\\PineCore\\": "src/"
+        }
     },
     "require": {
         "alberteddu/pine": "^0.0.8"
