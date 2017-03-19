@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Neuton:400,400i,700|Roboto:400,400i,700,700i');
+
+body {
+    margin:    0;
+    padding:   40px;
+    font-size: 20px;
+}
+
+body.serif {
+    font-family: "Neuton", serif;
+    font-size:   1.3em;
+}
+
+body.sans-serif,
+h1,
+.menu {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size:      20px;
+    text-transform: lowercase;
+    font-variant:   small-caps;
+    letter-spacing: 1px;
+    margin-top:     0;
+    margin-bottom:  40px;
+    float:          left;
+}
+
+a {
+    color:           rgba(0, 0, 0, .4);
+    text-decoration: none;
+}
+
+a:hover {
+    color:         #0074d9;
+    border-bottom: 2px solid;
+}
+
+.content {
+    max-width:   550px;
+    color:       rgba(0, 0, 0, .7);
+    line-height: 30px;
+}
+
+.content strong {
+    color: rgba(0, 0, 0, .9);
+}
+
+body.serif .content {
+    font-size: 23px;
+}
+
+#header {
+    clear:    both;
+    overflow: hidden;
+}
+
+.menu {
+    float:   left;
+    padding: 0;
+    margin:  0 0 0 40px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    text-transform: lowercase;
+    font-variant:   small-caps;
+    font-weight:    bold;
+    font-size:      20px;
+    letter-spacing: 1px;
+    margin-right:   20px;
+}
+
+.menu li.current a {
+    color:         #0074d9;
+    border-bottom: 2px solid;
+}

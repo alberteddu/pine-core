@@ -1,0 +1,9 @@
+{
+    "minimum-stability": "dev",
+    "autoload": {
+        "Pine\\Plugin\\PineCore\\": "src/"
+    },
+    "require": {
+        "alberteddu/pine": "^0.0.8"
+    }
+}
